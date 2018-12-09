@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 用到了recursion的思想，
  * 从前有座山，山里有座庙，庙里有个小和尚，那么不禁问："哪座山，哪座庙，哪个小和尚"
  * Time = O(nlogn)
- * Space = O(1)
+ * Space = O(n)
  *
  * main function that calls MergeSortMethod
  * left: the left index of the sub array
@@ -21,7 +21,6 @@ import java.util.Arrays;
 public class MergeSort {
     public static int[] array = new int[]{-2, -4, -1, 9, 0, -2, -4, 5, 2, 5, 6, 3};
     public static void main(String[] args) {
-
         int left = 0;
         int right = array.length - 1;
         MergeSortMethod(array, left, right);
