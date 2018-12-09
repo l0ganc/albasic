@@ -1,19 +1,19 @@
 package ThreeSortAlgorithms;
 
+import java.util.Arrays;
+
 /**
  * what is selection sort?
  * Every time find a global minimum element and swap it into the right position
- * time Complexity = O(1 + 2 + 3 + ... + n) = O(n ^ 2) It can be described as n to the power of 2
+ * Time Complexity = O(1 + 2 + 3 + ... + n) = O(n ^ 2) It can be described as n to the power of 2
+ * Space Complexity = O(1)
  *
  */
 public class SelectionSort {
     public static void main(String[] args) {
         int[] array = new int[]{-2, -4, -1, 9, 0, -2, -4, 5, 2, 5, 6, 3};
         int[] result = SelectSortMethod(array);
-
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
-        }
+        System.out.println(Arrays.toString(result));
     }
 
     private static int[] SelectSortMethod(int[] array) {
