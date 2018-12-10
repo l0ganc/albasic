@@ -5,6 +5,7 @@ package Recursion1AndBinarySearch;
  * For binary tree, the number of all leaf nodes in the binary tree is larger than the rest nodes in the bianry tree
  * Thus, we only care about the nodes in the leaf level
  *
+ * Time = O(1 + 2 + 4 + 8 +... + 2 ^ (n - 1)) = 2 ^ n
  * Space: O(n) 取决于call stack一共压栈了多少层 = how many call stacks are there in the recursion tree == level of recursion tree
  *
  */
