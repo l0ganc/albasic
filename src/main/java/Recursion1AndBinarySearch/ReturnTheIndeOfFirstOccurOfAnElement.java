@@ -3,14 +3,15 @@ package Recursion1AndBinarySearch;
 public class ReturnTheIndeOfFirstOccurOfAnElement {
     public static void main(String[] args) {
         int[] a = new int[]{4, 5, 5, 5, 5, 5, 6, 8, 10};
-        int target = 10;
+        int target = 12;
 
         System.out.println(getIndexOfFirstOccurTarget(a, target));
     }
 
+
     /**
-     * 依然需要提前一步停下来，
-     * 当L 跟 R 相邻的时候跳出while循环，再用post-processing来判断L 跟 R 究竟哪个是最终答案
+     * 依然需要提前一步停下来，d
+     * ne当L 跟 R 相邻的时候跳出while循环，再用post-processing来判断L 跟 R 究竟哪个是最终答案
      * @param a
      * @param target
      * @return
