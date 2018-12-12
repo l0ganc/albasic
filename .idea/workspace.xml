@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48009462-7b2b-4b00-869e-eacc5563932e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ThreeStacksToImplementADeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ImplementStackUsingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,23 +28,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="java" value="11471" />
+          <entry key="java" value="12656" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11471" />
+          <entry key="JAVA" value="12656" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
@@ -52,15 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Recursion1AndBinarySearch/FindElementInArrayThatIsClosetToTargetNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Recursion1AndBinarySearch/ReturnTheIndeOfFirstOccurOfAnElement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +100,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ThreeStacksToImplementADeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            <state relative-caret-position="316">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ImplementStackUsingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/java/QueueStackLinkedList/UsingTwoStacksToImplementGetMinFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueueStackLinkedList/UsingStacksToSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ThreeStacksToImplementADeque.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ImplementStackUsingQueue.java" />
       </list>
     </option>
   </component>
@@ -256,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544570046008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544573007769" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -276,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UsingStacksToSort">
+  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -304,12 +312,12 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="FindElementInArrayThatIsClosetToTargetNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion1AndBinarySearch.FindElementInArrayThatIsClosetToTargetNumber" />
+    <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueStackLinkedList.ImplementStackUsingQueue" />
       <module name="albasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion1AndBinarySearch.*" />
+          <option name="PATTERN" value="QueueStackLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,19 +401,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindElementInArrayThatIsClosetToTargetNumber" />
       <item itemvalue="Application.ReturnTheIndeOfFirstOccurOfAnElement" />
       <item itemvalue="Application.TwoStacksImplementAQueue" />
       <item itemvalue="Application.UsingTwoStacksToImplementGetMinFunction" />
       <item itemvalue="Application.UsingStacksToSort" />
+      <item itemvalue="Application.ImplementStackUsingQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImplementStackUsingQueue" />
         <item itemvalue="Application.UsingStacksToSort" />
         <item itemvalue="Application.UsingTwoStacksToImplementGetMinFunction" />
         <item itemvalue="Application.TwoStacksImplementAQueue" />
         <item itemvalue="Application.ReturnTheIndeOfFirstOccurOfAnElement" />
-        <item itemvalue="Application.FindElementInArrayThatIsClosetToTargetNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -423,12 +431,12 @@
       <workItem from="1544390599395" duration="2844000" />
       <workItem from="1544463258043" duration="8049000" />
       <workItem from="1544513243071" duration="597000" />
-      <workItem from="1544552725626" duration="8599000" />
+      <workItem from="1544552725626" duration="10781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26413000" />
+    <option name="totallyTimeSpent" value="28595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +451,7 @@
     <frame x="-28" y="-1046" width="1680" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -453,7 +461,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.32796317" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.32796317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26006904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,8 +631,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ThreeStacksToImplementADeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="316">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueueStackLinkedList/ImplementStackUsingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
